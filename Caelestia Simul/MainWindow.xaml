@@ -1,0 +1,27 @@
+﻿<Window x:Class="Caelestia_Simul.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Caelestia_Simul"
+        mc:Ignorable="d"
+        Title="Caelestia Simul" Height="400" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="lblUTC" Content="Label" HorizontalAlignment="Left" Margin="84,10,0,0" VerticalAlignment="Top" Width="700" FontSize="20" FontFamily="Consolas" Height="40"/>
+        <Label x:Name="lblLocal" Content="Label" HorizontalAlignment="Left" Margin="84,50,0,0" VerticalAlignment="Top" Width="700" FontSize="20" FontFamily="Consolas" Height="40"/>
+        <Label x:Name="lblUTCJulian" Content="Label" HorizontalAlignment="Left" Margin="84,90,0,0" VerticalAlignment="Top" Width="700" FontSize="20" FontFamily="Consolas" Height="40"/>
+        <Label x:Name="lblLocalJulian" Content="Label" HorizontalAlignment="Left" Margin="84,130,0,0" VerticalAlignment="Top" Width="700" FontSize="20" FontFamily="Consolas" Height="40"/>
+        <Label x:Name="lblUTCGregorian" Content="Label" HorizontalAlignment="Left" Margin="84,170,0,0" VerticalAlignment="Top" Width="700" FontSize="20" FontFamily="Consolas" Height="40"/>
+        <Label x:Name="lblLocalGregorian" Content="Label" HorizontalAlignment="Left" Margin="84,210,0,0" VerticalAlignment="Top" Width="700" FontSize="20" FontFamily="Consolas" Height="40"/>
+        <Label x:Name="lblGMST" Content="Label" HorizontalAlignment="Left" Margin="84,250,0,0" VerticalAlignment="Top" Width="700" FontSize="20" FontFamily="Consolas" Height="40"/>
+        <Label x:Name="lblGAST" Content="Label" HorizontalAlignment="Left" Margin="84,290,0,0" VerticalAlignment="Top" Width="700" FontSize="20" FontFamily="Consolas" Height="40"/>
+        <Label Content="UTC" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="69" FontSize="10" FontFamily="Consolas" Height="40" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="Local" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="69" FontSize="10" FontFamily="Consolas" Height="40" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="UTC&#x0a;Julian" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" Width="69" FontSize="10" FontFamily="Consolas" Height="40" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="Local&#x0a;Julian" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="69" FontSize="10" FontFamily="Consolas" Height="40" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="UTC&#x0a;Gregorian" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Width="69" FontSize="10" FontFamily="Consolas" Height="40" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="Local&#x0a;Gregorian" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top" Width="69" FontSize="10" FontFamily="Consolas" Height="40" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="GMST" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="69" FontSize="10" FontFamily="Consolas" Height="40" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="GAST" HorizontalAlignment="Left" Margin="10,290,0,0" VerticalAlignment="Top" Width="69" FontSize="10" FontFamily="Consolas" Height="40" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+    </Grid>
+</Window>
